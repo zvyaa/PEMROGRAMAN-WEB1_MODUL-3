@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title> Form Pendaftaran Kursus </title>
+    </head>
+    <body>
+        <table border="3" align="center">
+            <tr bgcolor="skyblue">
+                <td width="500" height="80" align="center">
+                    <font face="arial" color="red"> <b><h2> Pendaftaran Kursus </h2></b></font>
+                </td>
+            </tr>
+
+            <tr bgcolor="grey">
+                <td>
+                    <font face="arial"> <b><h3> Data Diri </h3></b> </font>
+                    Nama <input type="text" name="nama" style="margin-left: 120.5px;"> <br>
+                    Nim <input type="text" name="nim" style="margin-left: 130px;"> <br> 
+                    E-mail <input type="text" name="mail" style="margin-left: 115px;"> <br>
+                    Tanggal Lahir <input type="text" name="tl" style="margin-left: 68.5px;"> <br>
+                    Jenis Kelamin 
+                    <input type="radio" name="Jenis_Kelamin" value="L" style="margin-left: 66.5px;"> Laki-laki <br>
+                    <input type="radio" name="Jenis_Kelamin" value="P" style="margin-left: 161px;"> Perempuan <br>
+                    Pilih Program Kursus 
+                    <input type="checkbox" name="kursus_1" value="C#" style="margin-left: 18.5px;"> C# <br>
+                    <input type="checkbox" name="kursus_2" value="Java" style="margin-left: 161px;"> Java <br>
+                    <input type="checkbox" name="kursus_3" value="SQL" style="margin-left: 161px;"> SQL <br>
+                    <input type="checkbox" name="kursus_4" value="HTML PHP" style="margin-left: 161px;"> HTML dan PHP <br>
+                    Pilihan Hari/Jam Kursus 
+                    <select name="jadwal">
+                        <option> Senin - Rabu/09.00 - 11.00 </option>
+                        <option> Kamis - Sabtu/09.00 - 11.00 </option>
+                    </select> <br><br><br><br><br>
+                </td>
+            </tr>
+
+            <tr bgcolor="salmon">
+                <td>
+                    Komentar Anda <br>
+                    <textarea name ="komentar" cols="50" rows="4"></textarea> <br>
+                    <input type="reset" value="Reset" name="Reset">
+                    <input type="submit" value="Submit" name="Submit">
+                    <input type="button" value="Cancel" name="Cancel"><br><br>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
